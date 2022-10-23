@@ -1,0 +1,539 @@
+GEOS-CHEM UNIT TEST SIMULATION: geosfp_025x03125_tropchem_na
+------------------------+------------------------------------------------------
+%%% SIMULATION MENU %%% :
+Start YYYYMMDD, hhmmss  : 20180722 000000
+End   YYYYMMDD, hhmmss  : 20180915 000000
+Run directory           : ./
+Root data directory     : /home/lj152920/project/geos-chem/ExtData
+Met field               : geosfp
+------------------------+------------------------------------------------------
+%%% GRID MENU %%%       :
+Grid resolution         : 0.25x0.3125
+Longitude min/max       : -130.0 -60.0
+Latitude  min/max       :   9.75  60.0
+ Half-sized polar boxes?: F
+Number of levels        : 47
+Nested grid simulation? : T
+ Buffer zone (N S E W ) :  3  3  3  3
+------------------------+------------------------------------------------------
+%%% TIMESTEP MENU %%%   :
+Tran/conv timestep [sec]: 300
+Chem/emis timestep [sec]: 600
+------------------------+------------------------------------------------------
+%%% ADVECTED SPECIES MENU %%%:
+Type of simulation      : 3
+Species Entries ------->: Name
+Species name            : NO
+Species name            : O3
+Species name            : PAN
+Species name            : CO
+Species name            : ALK4
+Species name            : ISOP
+Species name            : HNO3
+Species name            : H2O2
+Species name            : ACET
+Species name            : MEK
+Species name            : ALD2
+Species name            : RCHO
+Species name            : MVK
+Species name            : MACR
+Species name            : NPMN
+Species name            : PPN
+Species name            : R4N2
+Species name            : PRPE
+Species name            : C3H8
+Species name            : CH2O
+Species name            : C2H6
+Species name            : N2O5
+Species name            : HNO4
+Species name            : MP
+Species name            : DMS
+Species name            : SO2
+Species name            : SO4
+Species name            : SO4s
+Species name            : MSA
+Species name            : NH3
+Species name            : NH4
+Species name            : NIT
+Species name            : NITs
+Species name            : BCPI
+Species name            : OCPI
+Species name            : BCPO
+Species name            : OCPO
+Species name            : DST1
+Species name            : DST2
+Species name            : DST3
+Species name            : DST4
+Species name            : SALA
+Species name            : SALC
+Species name            : Br2
+Species name            : Br
+Species name            : BrO
+Species name            : HOBr
+Species name            : HBr
+Species name            : BrNO2
+Species name            : BrNO3
+Species name            : CHBr3
+Species name            : CH2Br2
+Species name            : CH3Br
+Species name            : MPN
+Species name            : ISOPND
+Species name            : ISOPNB
+Species name            : MOBA
+Species name            : PROPNN
+Species name            : HAC
+Species name            : GLYC
+Species name            : MVKN
+Species name            : MACRN
+Species name            : MAP
+Species name            : NO2
+Species name            : NO3
+Species name            : HNO2
+Species name            : BENZ
+Species name            : TOLU
+Species name            : XYLE
+Species name            : MTPA
+Species name            : LIMO
+Species name            : MTPO
+Species name            : SOAP
+Species name            : SOAS
+Species name            : EOH
+Species name            : MGLY
+Species name            : GLYX
+Species name            : ACTA
+Species name            : HPALD
+Species name            : DHDN
+Species name            : ETHLN
+Species name            : HCOOH
+Species name            : IEPOXA
+Species name            : IEPOXB
+Species name            : IEPOXD
+Species name            : ISN1
+Species name            : RIPA
+Species name            : RIPB
+Species name            : RIPD
+Species name            : IMAE
+Species name            : SOAIE
+Species name            : SOAME
+Species name            : SOAGX
+Species name            : SOAMG
+Species name            : LVOC
+Species name            : LVOCOA
+Species name            : ISN1OG
+Species name            : ISN1OA
+Species name            : MONITS
+Species name            : MONITU
+Species name            : HONIT
+Species name            : IONITA
+Species name            : MONITA
+Species name            : INDIOL
+Species name            : IPMN
+Species name            : HC187
+Species name            : CH4
+Species name            : BrCl
+Species name            : HCl
+Species name            : CH3Cl
+Species name            : Cl
+Species name            : ClO
+Species name            : HOCl
+Species name            : ClNO3
+Species name            : ClNO2
+Species name            : ClOO
+Species name            : OClO
+Species name            : Cl2
+Species name            : Cl2O2
+Species name            : BrSALA
+Species name            : BrSALC
+Species name            : CHCl3
+Species name            : CH2Cl2
+Species name            : CH3I
+Species name            : CH2I2
+Species name            : CH2ICl
+Species name            : CH2IBr
+Species name            : HOI
+Species name            : I2
+Species name            : IBr
+Species name            : ICl
+Species name            : I
+Species name            : IO
+Species name            : HI
+Species name            : OIO
+Species name            : INO
+Species name            : IONO
+Species name            : IONO2
+Species name            : I2O2
+Species name            : I2O3
+Species name            : I2O4
+Species name            : ISALA
+Species name            : ISALC
+Species name            : AERI
+Species name            : pFe
+------------------------+------------------------------------------------------
+%%% TRANSPORT MENU %%%  :
+Turn on Transport       : T
+ => Fill Negative Values: T
+ => IORD, JORD, KORD    : 3  3  7
+------------------------+------------------------------------------------------
+%%% CONVECTION MENU %%% :
+Turn on Cloud Conv?     : T
+Turn on PBL Mixing?     : T
+ => Use non-local PBL?  : T
+------------------------+------------------------------------------------------
+%%% EMISSIONS MENU %%%  :
+Turn on emissions?      : T
+HEMCO Input file        : HEMCO_Config.rc
+ => 1ppt MBL BRO Sim.?  : F
+Switches for UCX        :---
+ => Use CH4 emissions?  : F
+ => Turn on surface BCs :---
+    => CH4?             : F
+    => OCS?             : F
+    => CFCs?            : F
+    => Cl species?      : F
+    => Br species?      : F
+    => N2O?             : F
+ => Set initial glob MRs:---
+    => strat. H2O?      : F
+ => CFC emission year   : 0
+------------------------+------------------------------------------------------
+%%% AEROSOL MENU %%%    :
+Online SULFATE AEROSOLS : T
+ => Metal cat. SO2 ox.? : T
+Online CARBON  AEROSOLS : T
+ => Use Brown Carbon?   : F
+Online COMPLEX SOA      : F
+ => Semivolatile POA?   : F
+Spatial & seasonal OM/OC: F
+Online DUST    AEROSOLS : T
+ => Acidic uptake ?     : F
+Online SEASALT AEROSOLS : T
+ => SALA radius bin [um]: 0.01 0.5
+ => SALC radius bin [um]: 0.5  8.0
+ => MARINE ORG AEROSOLS : F
+Settle strat. aerosols  : F
+Online PSC AEROSOLS     : F
+Allow homogeneous NAT?  : F
+NAT supercooling req.(K): 3.0
+Ice supersaturation req.: 1.2
+Perform PSC het. chem.? : F
+Calc. strat. aero. OD?  : F
+Enhance BC Absorption?  : T
+ => hydrophilic BC      : 1.5
+ => hydrophobic BC      : 1.0
+------------------------+------------------------------------------------------
+%%% DEPOSITION MENU %%% :
+Turn on Dry Deposition? : T
+Turn on Wet Deposition? : T
+------------------------+------------------------------------------------------
+%%% CHEMISTRY MENU %%%  :
+Turn on Chemistry?      : T
+Use linear. strat. chem?: T
+ => Use Linoz for O3?   : T
+Use UCX strat. chem?    : F
+Active strat. H2O?      : F
+Overhead O3 for FAST-JX :---
+ => Online O3 from model: F
+ => O3 from met fields  : T
+ => TOMS/SBUV O3        : F
+Gamma HO2               : 0.2
+------------------------+------------------------------------------------------
+%%% PHOTOLYSIS MENU %%% :
+FAST-JX directory       : /home/lj152920/project/geos-chem/ExtData/CHEM_INPUTS/FAST_JX/v2019-04/
+------------------------+------------------------------------------------------
+%%% RADIATION MENU %%%  :
+AOD Wavelength (nm)     : 550
+Turn on RRTMG?          : F
+Calculate LW fluxes?    : F
+Calculate SW fluxes?    : F
+Clear-sky flux?         : F
+All-sky flux?           : F
+Radiation Timestep [sec]: 10800
+------------------------+------------------------------------------------------
+%%% OUTPUT MENU %%%     : 123456789.123456789.123456789.1--1=ZERO+2=BPCH
+Schedule output for JAN : 3000000000000000000000000000000
+Schedule output for FEB : 30000000000000000000000000000
+Schedule output for MAR : 3000000000000000000000000000000
+Schedule output for APR : 300000000000000000000000000000
+Schedule output for MAY : 3000000000000000000000000000000
+Schedule output for JUN : 300000000000000000000000000000
+Schedule output for JUL : 3333333333333333333333333333333
+Schedule output for AUG : 3333333333333333333333333333333
+Schedule output for SEP : 333333333333333333333333333333
+Schedule output for OCT : 3000000000000000000000000000000
+Schedule output for NOV : 300000000000000000000000000000
+Schedule output for DEC : 3000000000000000000000000000000
+------------------------+------------------------------------------------------
+%%% GAMAP MENU %%%      :
+diaginfo.dat path       : diaginfo.dat
+tracerinfo.dat path     : tracerinfo.dat
+------------------------+------------------------------------------------------
+%%% DIAGNOSTIC MENU %%% :
+Binary punch file name  : ./bpch/trac_avg.geosfp_025x03125_tropchem_na.YYYYMMDDhhmm
+Diagnostic Entries ---> :  L   Tracers to print out for each diagnostic
+ND01: Rn/Pb/Be source   :  0   all
+ND02: Rn/Pb/Be decay    :  0   all
+ND03: Hg emissions, P/L :  0   all
+ND04: CO2 Sources       :  0   all
+ND05: Sulfate prod/loss : 47   all
+ND06: Dust aer source   :  1   all
+ND07: Carbon aer source : 47   all
+ND08: Seasalt aer source:  1   all
+ND09: -                 :  0   all
+ND10: -                 :  0   all
+ND11: Acetone sources   :  1   all
+ND12: BL fraction       :  0   all
+ND13: Sulfur sources    : 47   all
+ND14: Cld conv mass flx :  0   all
+ND15: BL mix mass flx   :  0   all
+ND16: LS/Conv prec frac :  0   all
+ND17: Rainout fraction  :  0   all
+ND18: Washout fraction  :  0   all
+ND19: CH4 loss          :  0   all
+ND21: Optical depths    : 47   all
+ND22: J-Values          : 47   all
+      => JV time range  :      11 13
+ND24: E/W transpt flx   :  0   all
+ND25: N/S transpt flx   :  0   all
+ND26: U/D transpt flx   :  0   all
+ND27: Strat NOx,Ox,HNO3 :  0   1 2 7
+ND28: Biomass emissions : 47   all
+ND29: CO sources        : 47   all
+ND30: Land Map          :  0   all
+ND31: Pressure edges    : 48   all
+ND32: NOx sources       : 47   all
+ND33: Column tracer     :  0   all
+ND34: Biofuel emissions :  1   all
+ND35: Tracers at 500 mb :  0   all
+ND36: Anthro emissions  : 47   all
+ND37: Updraft scav frac : 47   all
+ND38: Cld Conv scav loss: 47   all
+ND39: Wetdep scav loss  : 47   all
+ND41: Afternoon PBL ht  :  0   all
+ND42: SOA concentrations: 47   all
+ND43: Chem prod OH, HO2 : 47   all
+  ==> OH/HO2 time range :       0 24
+ND44: Drydep flx/vel    :  1   all
+ND45: Tracer Conc's     : 47   all
+  ==> ND45 Time range   :       0 24
+ND46: Biogenic emissions:  1   all
+ND47: 24-h avg trc conc :  0   all
+ND52: GAMMA values      :  0   all
+ND53: POPs Emissions    :  0   all
+ND54: Time in t'sphere  : 47   all
+ND55: Tropopause height : 47   all
+ND56: Lightning flashes :  0   all
+ND57: Potential T       : 47   all
+ND58: CH4 Emissions     :  0   all
+ND59: TOMAS aerosol emis:  0   all
+ND60: Wetland Frac      :  0   all
+ND61: TOMAS 3D rate     :  0   all
+ND62: Inst column maps  :  0   all
+ND64: Radiative flux    :  0   all
+ND66: DAO 3-D fields    : 47   all
+ND67: DAO 2-D fields    : 47   all
+ND68: Airmass/Boxheight : 47   all
+ND69: Surface area      :  1   all
+ND70: Debug output      :  0   all
+ND71: Hourly max ppbv   :  0   2
+ND72: Radiative output  :  0   all
+ND73: ISORROPIA         :  0   all
+------------------------+------------------------------------------------------
+%%% PLANEFLIGHT MENU %%%:
+Turn on plane flt diag? : T
+Flight track info file  : ./plane/Planeflight.dat.YYYYMMDD
+Output file name        : ./plane/plane.log.YYYYMMDD
+------------------------+------------------------------------------------------
+%%% OBSPACK MENU %%%    :
+Turn on ObsPack diag?   : F
+Quiet logfile output    : F
+ObsPack input file      : ./obspack_co2_1_OCO2MIP_2018-11-28.YYYYMMDD.nc
+ObsPack output file     : GEOSChem.ObsPack.YYYYMMDD_hhmmz.nc4
+ObsPack output species  : NO CO O3
+------------------------+------------------------------------------------------
+%%% ND48 MENU %%%       :
+Turn on ND48 stations   : T
+Station Timeseries file : ./stations/stations.YYYYMMDD
+Frequency [sec]         : 3600
+Number of stations      :   120
+Station #1 (I,J,Lmax,N) : 26 152 1 4
+Station #2 (I,J,Lmax,N) : 26 152 1 31
+Station #3 (I,J,Lmax,N) : 26 152 1 32
+Station #4 (I,J,Lmax,N) : 26 152 1 27
+Station #5 (I,J,Lmax,N) : 26 152 1 34
+Station #6 (I,J,Lmax,N) : 26 152 1 36
+Station #7 (I,J,Lmax,N) : 26 152 1 37
+Station #8 (I,J,Lmax,N) : 26 152 1 35
+Station #9 (I,J,Lmax,N) : 26 152 1 74
+Station #10 (I,J,Lmax,N): 26 152 1 38
+Station #11 (I,J,Lmax,N): 26 152 1 39
+Station #12 (I,J,Lmax,N): 26 152 1 42
+Station #13 (I,J,Lmax,N): 25 144 1 4
+Station #14 (I,J,Lmax,N): 25 144 1 31
+Station #15 (I,J,Lmax,N): 25 144 1 32
+Station #16 (I,J,Lmax,N): 25 144 1 27
+Station #17 (I,J,Lmax,N): 25 144 1 34
+Station #18 (I,J,Lmax,N): 25 144 1 36
+Station #19 (I,J,Lmax,N): 25 144 1 37
+Station #20 (I,J,Lmax,N): 25 144 1 35
+Station #21 (I,J,Lmax,N): 25 144 1 74
+Station #22 (I,J,Lmax,N): 25 144 1 38
+Station #23 (I,J,Lmax,N): 25 144 1 39
+Station #24 (I,J,Lmax,N): 25 144 1 42
+Station #25 (I,J,Lmax,N): 45 136 1 4
+Station #26 (I,J,Lmax,N): 45 136 1 31
+Station #27 (I,J,Lmax,N): 45 136 1 32
+Station #28 (I,J,Lmax,N): 45 136 1 27
+Station #29 (I,J,Lmax,N): 45 136 1 34
+Station #30 (I,J,Lmax,N): 45 136 1 36
+Station #31 (I,J,Lmax,N): 45 136 1 37
+Station #32 (I,J,Lmax,N): 45 136 1 35
+Station #33 (I,J,Lmax,N): 45 136 1 74
+Station #34 (I,J,Lmax,N): 45 136 1 38
+Station #35 (I,J,Lmax,N): 45 136 1 39
+Station #36 (I,J,Lmax,N): 45 136 1 42
+Station #37 (I,J,Lmax,N): 81 121 1 4
+Station #38 (I,J,Lmax,N): 81 121 1 31
+Station #39 (I,J,Lmax,N): 81 121 1 32
+Station #40 (I,J,Lmax,N): 81 121 1 27
+Station #41 (I,J,Lmax,N): 81 121 1 34
+Station #42 (I,J,Lmax,N): 81 121 1 36
+Station #43 (I,J,Lmax,N): 81 121 1 37
+Station #44 (I,J,Lmax,N): 81 121 1 35
+Station #45 (I,J,Lmax,N): 81 121 1 74
+Station #46 (I,J,Lmax,N): 81 121 1 38
+Station #47 (I,J,Lmax,N): 81 121 1 39
+Station #48 (I,J,Lmax,N): 81 121 1 42
+Station #49 (I,J,Lmax,N): 29 114 1 4
+Station #50 (I,J,Lmax,N): 29 114 1 31
+Station #51 (I,J,Lmax,N): 29 114 1 32
+Station #52 (I,J,Lmax,N): 29 114 1 27
+Station #53 (I,J,Lmax,N): 29 114 1 34
+Station #54 (I,J,Lmax,N): 29 114 1 36
+Station #55 (I,J,Lmax,N): 29 114 1 37
+Station #56 (I,J,Lmax,N): 29 114 1 35
+Station #57 (I,J,Lmax,N): 29 114 1 74
+Station #58 (I,J,Lmax,N): 29 114 1 38
+Station #59 (I,J,Lmax,N): 29 114 1 39
+Station #60 (I,J,Lmax,N): 29 114 1 42
+Station #61 (I,J,Lmax,N): 34 109 1 4
+Station #62 (I,J,Lmax,N): 34 109 1 31
+Station #63 (I,J,Lmax,N): 34 109 1 32
+Station #64 (I,J,Lmax,N): 34 109 1 27
+Station #65 (I,J,Lmax,N): 34 109 1 34
+Station #66 (I,J,Lmax,N): 34 109 1 36
+Station #67 (I,J,Lmax,N): 34 109 1 37
+Station #68 (I,J,Lmax,N): 34 109 1 35
+Station #69 (I,J,Lmax,N): 34 109 1 74
+Station #70 (I,J,Lmax,N): 34 109 1 38
+Station #71 (I,J,Lmax,N): 34 109 1 39
+Station #72 (I,J,Lmax,N): 34 109 1 42
+Station #73 (I,J,Lmax,N): 32 109 1 4
+Station #74 (I,J,Lmax,N): 32 109 1 31
+Station #75 (I,J,Lmax,N): 32 109 1 32
+Station #76 (I,J,Lmax,N): 32 109 1 27
+Station #77 (I,J,Lmax,N): 32 109 1 34
+Station #78 (I,J,Lmax,N): 32 109 1 36
+Station #79 (I,J,Lmax,N): 32 109 1 37
+Station #80 (I,J,Lmax,N): 32 109 1 35
+Station #81 (I,J,Lmax,N): 32 109 1 74
+Station #82 (I,J,Lmax,N): 32 109 1 38
+Station #83 (I,J,Lmax,N): 32 109 1 39
+Station #84 (I,J,Lmax,N): 32 109 1 42
+Station #85 (I,J,Lmax,N): 34 120 1 4
+Station #86 (I,J,Lmax,N): 34 120 1 31
+Station #87 (I,J,Lmax,N): 34 120 1 32
+Station #88 (I,J,Lmax,N): 34 120 1 27
+Station #89 (I,J,Lmax,N): 34 120 1 34
+Station #90 (I,J,Lmax,N): 34 120 1 36
+Station #91 (I,J,Lmax,N): 34 120 1 37
+Station #92 (I,J,Lmax,N): 34 120 1 35
+Station #93 (I,J,Lmax,N): 34 120 1 74
+Station #94 (I,J,Lmax,N): 34 120 1 38
+Station #95 (I,J,Lmax,N): 34 120 1 39
+Station #96 (I,J,Lmax,N): 34 120 1 42
+Station #97 (I,J,Lmax,N): 27 121 1 4
+Station #98 (I,J,Lmax,N): 27 121 1 31
+Station #99 (I,J,Lmax,N): 27 121 1 32
+Station #100 (I,J,LmaxN): 27 121 1 27
+Station #101 (I,J,LmaxN): 27 121 1 34
+Station #102 (I,J,LmaxN): 27 121 1 36
+Station #103 (I,J,LmaxN): 27 121 1 37
+Station #104 (I,J,LmaxN): 27 121 1 35
+Station #105 (I,J,LmaxN): 27 121 1 74
+Station #106 (I,J,LmaxN): 27 121 1 38
+Station #107 (I,J,LmaxN): 27 121 1 39
+Station #108 (I,J,LmaxN): 27 121 1 42
+Station #109 (I,J,LmaxN): 52 149 1 4
+Station #110 (I,J,LmaxN): 52 149 1 31
+Station #111 (I,J,LmaxN): 52 149 1 32
+Station #112 (I,J,LmaxN): 52 149 1 27
+Station #113 (I,J,LmaxN): 52 149 1 34
+Station #114 (I,J,LmaxN): 52 149 1 36
+Station #115 (I,J,LmaxN): 52 149 1 37
+Station #116 (I,J,LmaxN): 52 149 1 35
+Station #117 (I,J,LmaxN): 52 149 1 74
+Station #118 (I,J,LmaxN): 52 149 1 38
+Station #119 (I,J,LmaxN): 52 149 1 39
+Station #120 (I,J,LmaxN): 52 149 1 42
+------------------------+------------------------------------------------------
+%%% ND49 MENU %%%       :
+Turn on ND49 diagnostic : T
+Inst 3-D timeser. file  : ./stations/tsYYYYMMDD.bpch
+Tracers to include      : 4 31 32 27 34 36 37 35 74 38 39 42
+Frequency [sec]         : 3600
+IMIN, IMAX of region    :  28  28
+JMIN, JMAX of region    : 138 138
+LMIN, LMAX of region    :   1  47
+-------------------------------------------------------------------------------
+%%% ND50 MENU %%%       :
+Turn on ND50 diagnostic : F
+24-hr avg timeser. file : ts_24h_avg.YYYYMMDD.bpch
+Output as HDF5?         : F
+Tracers to include      : 82 83 84 85 86 87
+IMIN, IMAX of region    :   1  72
+JMIN, JMAX of region    :   1  46
+LMIN, LMAX of region    :   1   1
+-------------------------------------------------------------------------------
+%%% ND51 MENU %%%       :
+Turn on ND51 diagnostic : T
+LT avg timeseries file  : ./satellite/ts_satellite.YYYYMMDD.bpch
+Output as HDF5?         : F
+Tracers to include      : 1 2 3 4 5 6 9 10 11 13 14 20 26 46 64 66 77 107 501 503 507 511 512 513 516
+GMT Hour for disk write :  1
+Avg Period [LT hours]   :  13  14
+IMIN, IMAX of region    :   1 225
+JMIN, JMAX of region    :   1 202
+LMIN, LMAX of region    :   1  47
+-------------------------------------------------------------------------------
+%%% ND51b MENU %%%      :
+Turn on ND51b diagnstic : F
+LT avg timeseries file  : ts_13_15.NA.YYYYMMDD.h5
+Output as HDF5?         : F
+Tracers to include      : 1 4 20 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 60 61 62 63 64 65 66 72 73 75 82 83 84 85 86 87 93 94 98 99
+GMT Hour for disk write :  1
+Avg Period [LT hours]   :  13  15
+IMIN, IMAX of region    :   1  72
+JMIN, JMAX of region    :   1  46
+LMIN, LMAX of region    :   1   1
+------------------------+------------------------------------------------------
+%%% ND63 MENU %%%       :
+Turn on ND63 diagnostic : F
+Inst 3-D timeser. file  : paranox_ts.YYYYMMDD.bpch
+Tracers to include      : 1
+Frequency [sec]         : 7200
+IMIN, IMAX of region    :  70  30
+JMIN, JMAX of region    :  23  46
+-------------------------------------------------------------------------------
+%%% PROD & LOSS MENU %%%:
+Turn on P/L (ND65) diag?: F
+# of levels for ND65    : 47
+Save O3 P/L (ND20)?     : F
+Save CO Production?     : F
+------------------------+------------------------------------------------------
+%%% BENCHMARK MENU %%%  :
+Save benchmark output?  : F
+File w/ initial Ox      : Ox.mass.initial
+File w/ final Ox        : Ox.mass.final
+------------------------+------------------------------------------------------
+END OF FILE             :
+------------------------+------------------------------------------------------
